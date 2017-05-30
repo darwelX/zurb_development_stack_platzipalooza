@@ -1,0 +1,22 @@
+          <section id="suscribete-container" data-magellan-target="suscribete-container">
+            <h3 class="text-center">Suscríbete</h3>
+            <h4 class="text-center"><small>Y recive las últimas novedades del concierto</small></h4>
+            <!-- el atributo data-abide es parte de un plugin de foundation para validar y mostrar errores de un formulario llamado bide -->
+            <form action="" method="" novalidate data-abide>
+              <!-- al utilizar el atributo data-abide-error le dice a foundation que el elemento se debe de mostrar al aocurrir un error de validacion -->
+              <div data-abide-error  style="display: none;" class="row columns small-12 medium-6 text-center error-container">
+                <p>
+                  <i class="fi-alert"></i>Ingresó un correo electrónico no valido
+                </p>
+              </div>
+              <div class="row columns small-12 medium-6">
+                <div class="input-group">
+                  <span class="input-group-label"><i class="fi-mail"></i></span>
+                  <input type="email" name="email" required placeholder="to@correo.com" class="input-group-field">
+                  <div class="input-group-button">
+                    <input type="submit" value="Suscríbete" class="button">
+                  </div>
+                </div>
+              </div>
+            </form>
+          </section>

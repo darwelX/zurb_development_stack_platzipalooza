@@ -1,0 +1,189 @@
+body {
+    background-color: #ee3f54;
+}
+
+h1, h2, h3, h4, h5, h6, button, input[type="submit"] {
+    font-family: "Bree Serif", serif;
+}
+#social-container {
+    background-color: #1c3643;
+}
+
+#logo-container .callout {
+    background-color: #ee3f54;
+    color: white;
+    margin-bottom: 0;
+}
+
+#menu-container {
+    background-color: #48a19d;
+}
+
+#menu-container li a {
+    color: white;
+    font-family: "Bree Serif", serif;
+    text-transform: uppercase;
+}
+
+#menu-container li a:hover,
+#menu-subcontainer li a:hover
+{
+    color: #f6e15f
+}
+
+#menu-subcontainer li a{
+    background-color:#48a19d;
+    color: white;
+}
+
+#menu-subcontainer {
+    border: 0;
+}
+
+#tickets-action .callout {
+    background-color: #5e7eb7;
+    color: white;
+    margin-bottom: 0;
+}
+#tickets-action .callout a {
+    color: white;
+    border: solid 1px white;
+    font-family: "Bree Serif", serif;
+}
+
+
+#lineup-container {
+    padding: 1em 0;
+}
+
+#lineup-container, 
+#lineup-container .tabs-panel,
+#lineup-container .tabs,
+#lineup-container .tabs .tabs-title,
+#lineup-container .tabs .tabs-title.is-active a{
+    background-color: #9676af;
+    color: white;
+    border: 0;
+    font-family:  "Bree Serif", serif;    
+}
+
+#lineup-container .tabs .tabs-title.is-active a{
+    border-bottom: 5px solid white;
+}
+
+.tabs-content {
+    border:  0;
+}
+
+#lineup-container .tabs .tabs-title a{
+    font-size: 18px;
+    color: #a7fffb;
+    text-transform: uppercase; 
+}
+
+#lineup-container .tabs .tabs-title a:hover{
+    color: white;
+    background-color: #9676af;
+}
+
+/* por defecto foundation no centra los tabs es por ello que se debe agregar los siguientes estilos para conseguirlo */
+.tabs-title {
+    display: inline-block;
+    float: none;
+}
+
+
+/* se alinean los textos del de las imagenes a la derecha solo para los elementos impares */
+#lineup-container .columns:nth-child(odd) .card-divider{
+    text-align: right
+}
+
+.card {
+    border:0 !important;
+}
+
+#lineup-container .columns .card .card-divider {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+/* Princing Table */
+
+#pricing-container {
+    padding: 1em 0;
+    background-color: #f6e15f;
+    color: #161742;;
+}
+
+.pricing-table {
+    border: 1em 0 solid #161742;
+    font-family: 'Ravi Prakash', cursive;
+    margin-left: 0;
+}
+
+.pricing-table li,
+.pricing-table li.description {
+    font-size: 20px;
+}
+
+.pricing-table li.price,
+.pricing-table li.title {
+    font-size: 30px;
+}
+
+.pricing-table a.button {
+    font-family: "Bree Serif", serif;
+}
+
+/* /Pricing Table */
+
+#info-container {
+    background-color:#161742; 
+    padding: 1em 0;
+    color: white;
+}
+
+#info-container .info-map iframe {
+    width: 100%;
+}
+
+#suscribete-container {
+    background-color: #ee3f54;
+    padding: 1em 0;
+    color: white;
+}
+
+#suscribete-container h4 small {
+    color: #ffcdcc;
+}
+
+#suscribete-container .error-container {
+    font-family: "Bree Serif", serif;
+}
+
+.data-sticky{
+    width: 100%;
+    z-index: 100;
+}
+
+#offCanvas,
+#offCanvas li a {
+    background-color: black;
+    color: white;
+    font-family: "Bree Serif", serif;
+}
+
+#offCanvas .is-drilldown-submenu-parent > a::after {
+    border-color: transparent transparent transparent white
+}
+
+#offCanvas .js-drilldown-back > a::before {
+    border-color: transparent white transparent transparent
+}
+
+#offCanvas button {
+    z-index: 100;
+}
+#offCanvas button span {
+    color: white;
+}

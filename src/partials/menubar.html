@@ -1,0 +1,36 @@
+          <section id="scrollSticky" data-sticky-container>
+            <!-- la clase dropdown es para aplicar estilos de menu desplegable -->
+            <!-- el atributo data-dropdown-menu se utiliza para darle funcionalidad javascript al menu por parte de foundation -->
+            <!-- las clases de alineacion (align-spaced) vista en las practicas de rejillas tambien pueden ser aplicadas a otros elementos -->
+            <!-- Los atributos data-sticky data-options data-sticky-on data-top-anchor
+            son necesarios para hacer uso de una barra que se deplace atraves de la pagina al navegar
+            data-sticky-on: a partir de que tamaño se activa
+            data-top-anchor: la seccion ancla de la barra al pasarse de esa seccion se desplasa la barra
+            -->
+            <div class="data-sticky" data-sticky data-options="marginTop: 0" data-sticky-on="small" data-top-anchor="scrollSticky">
+              <!-- 
+                al usar magellan los enlaces deben contener un href bien sea un ancla o enlace
+                ya que sino lo tiene puede provocar un error
+                -->
+              <nav id="menu-container" data-magellan><!-- el atributo data-magellan sirve para hacer una navegacion suave atraves de la pagina y se conbina con el uso de data-magellan-target en las secciones donde queremos navegar-->
+                <ul class="menu align-spaced show-for-small-only">
+                  <li>
+                    <a href="#" data-toggle="offCanvas">Menu</a>
+                  </li>
+                </ul>
+                <ul class="menu dropdown align-spaced show-for-medium" data-dropdown-menu>
+                  <li><a href="#pricing-container">Tickets</a></li>
+                  <li>
+                    <a href="#lineup-container">Lineup</a>
+                    <ul id="menu-subcontainer" class="menu">
+                      <li><a data-toggle-dia="panel-viernes"href="#lineup-container">Viernes</a></li>
+                      <li><a data-toggle-dia="panel-sabado"href="#lineup-container">Sábado</a></li>
+                      <li><a data-toggle-dia="panel-domingo"href="#lineup-container">Domingo</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#info-container">Info</a></li>
+                  <li><a href="#suscribete-container">Suscribete</a></li>
+                </ul>
+              </nav>
+            </div>
+          </section>
