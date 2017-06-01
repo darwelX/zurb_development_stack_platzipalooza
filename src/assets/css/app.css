@@ -94,9 +94,6 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"] {
 
 
 /* se alinean los textos del de las imagenes a la derecha solo para los elementos impares */
-#lineup-container .columns:nth-child(odd) .card-divider{
-    text-align: right
-}
 
 .card {
     border:0 !important;
@@ -105,6 +102,9 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"] {
 #lineup-container .columns .card .card-divider {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
+}
+#lineup-container .columns:nth-child(even) .card-divider{
+    text-align: right !important;
 }
 
 /* Princing Table */
@@ -186,4 +186,21 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"] {
 }
 #offCanvas button span {
     color: white;
+}
+
+#queensBiografia .quote-inline-marks{
+    padding-top: 0.3em;
+}
+
+#beatlesBiografia .quote-inline-marks{
+    padding-top: 0.3em;
+}
+
+#gunsBiografia .quote-inline-marks{
+    padding-top: 0.3em;
+}
+
+.biografia {
+    margin-bottom: 1em;
+    background-color: #5E7EB7;
 }
