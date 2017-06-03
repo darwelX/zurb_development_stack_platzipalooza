@@ -3,13 +3,13 @@
             <!-- el orden del atributo data-tabs es importante sino no funcionaria a pesar de estar presente en la etiqueta -->
             <ul class="tabs text-center" data-tabs id="lineup-tabs">
               <li class="tabs-title is-active">
-                <a href="#panel-viernes">Viernes</a>
+                <a id="viernes" href="#panel-viernes">Viernes</a>
               </li>
               <li class="tabs-title">
-                <a href="#panel-sabado">Sábado</a>
+                <a id="sabado" href="#panel-sabado">Sábado</a>
               </li>
               <li class="tabs-title">
-                <a href="#panel-domingo">Domingo</a>
+                <a id="domingo" href="#panel-domingo">Domingo</a>
               </li>
             </ul>
 
@@ -27,28 +27,28 @@
                     </div>
 
                     <div class="small-12 medium-6 columns">
-                      <div class="card">
+                      <div id="guns-uno" class="card" data-animation="slide-in-left">
                         <img src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
                         <div class="card-divider">Guns n' Roses</div>
                       </div>
                     </div>
 
                     <div class="small-12 medium-6 columns">
-                      <div class="card">
+                      <div id="guns-dos" class="card" data-animation="slide-in-right">
                         <img src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
                         <div class="card-divider">Guns n' Roses</div>
                       </div>
                     </div>
 
                     <div class="small-12 medium-6 columns">
-                      <div class="card">
+                      <div id="guns-tres" class="card" data-animation="slide-in-up">
                         <img src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
                         <div class="card-divider">Guns n' Roses</div>
                       </div>
                     </div>
 
                     <div class="small-12 medium-6 columns">
-                      <div class="card">
+                      <div id="guns-cuatro" class="card" data-animation="slide-in-down">
                         <img src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun n' Roses">
                         <div class="card-divider">Guns n' Roses</div>
                       </div>
@@ -70,34 +70,33 @@
                       </a>                   
                     </div>
 
-                  <div class="small-12 medium-6 columns">
-                    <div class="card">
-                      <img src="http://lallamarada.net/wp-content/uploads/2016/06/beatles.jpg" alt="Beatles">
-                      <div class="card-divider">Beatles</div>
+                    <div class="small-12 medium-6 columns">
+                      <div id="beatles-uno" class="card" data-animation="hinge-in-from-top">
+                        <img src="http://lallamarada.net/wp-content/uploads/2016/06/beatles.jpg" alt="Beatles">
+                        <div class="card-divider">Beatles</div>
+                      </div>
                     </div>
-                  </div>
 
-                  <div class="small-12 medium-6 columns">
-                    <div class="card">
-                      <img src="http://lallamarada.net/wp-content/uploads/2016/06/beatles.jpg" alt="Beatles">
-                      <div class="card-divider">Beatles</div>
+                    <div class="small-12 medium-6 columns">
+                      <div id="beatles-dos" class="card" data-animation="hinge-in-from-bottom">
+                        <img src="http://lallamarada.net/wp-content/uploads/2016/06/beatles.jpg" alt="Beatles">
+                        <div class="card-divider">Beatles</div>
+                      </div>
                     </div>
-                  </div>
 
-                  <div class="small-12 medium-6 columns">
-                    <div class="card">
-                      <img src="http://lallamarada.net/wp-content/uploads/2016/06/beatles.jpg" alt="Beatles">
-                      <div class="card-divider">Beatles</div>
+                    <div class="small-12 medium-6 columns">
+                      <div id="beatles-tres" class="card" data-animation="hinge-in-from-right">
+                        <img src="http://lallamarada.net/wp-content/uploads/2016/06/beatles.jpg" alt="Beatles">
+                        <div class="card-divider">Beatles</div>
+                      </div>
                     </div>
-                  </div>
 
-                  <div class="small-12 medium-6 columns">
-                    <div class="card">
-                      <img src="http://lallamarada.net/wp-content/uploads/2016/06/beatles.jpg" alt="Beatles">
-                      <div class="card-divider">Beatles</div>
+                    <div class="small-12 medium-6 columns">
+                      <div id="beatles-cuatro" class="card" data-animation="hinge-in-from-left">
+                        <img src="http://lallamarada.net/wp-content/uploads/2016/06/beatles.jpg" alt="Beatles">
+                        <div class="card-divider">Beatles</div>
+                      </div>
                     </div>
-                  </div>
-
                 </div>
 
               </div>
@@ -114,33 +113,33 @@
                   </div>
 
                   <div class="small-12 medium-6 columns">
-                    <div class="card">
+                    <div id="queen-uno" class="card" data-animation="scale-in-up">
                       <img src="https://bulk2.destructoid.com/ul/150736-queen.jpg" alt="Queen">
                       <div class="card-divider">Queen</div>
                     </div>
                   </div>
 
                   <div class="small-12 medium-6 columns">
-                    <div class="card">
+                    <div id="queen-dos" class="card" data-animation="scale-in-down">
                       <img src="https://bulk2.destructoid.com/ul/150736-queen.jpg" alt="Queen">
                       <div class="card-divider">Queen</div>
                     </div>
                   </div>
 
                   <div class="small-12 medium-6 columns">
-                    <div class="card">
+                    <div id="queen-tres" class="card" data-animation="spin-in">
                       <img src="https://bulk2.destructoid.com/ul/150736-queen.jpg" alt="Queen">
                       <div class="card-divider">Queen</div>
                     </div>
                   </div>
 
                   <div class="small-12 medium-6 columns">
-                    <div class="card">
+                    <div id="queen-cuatro" class="card" data-animation="spin-in-ccw">
                       <img src="https://bulk2.destructoid.com/ul/150736-queen.jpg" alt="Queen">
                       <div class="card-divider">Queen</div>
                     </div>
                   </div>
-
+                  
                 </div>
               </div>
             </div>
